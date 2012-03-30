@@ -1,14 +1,13 @@
 Metadata-Version: 1.0
-Name: madcow
-Version: 2.1.0
-Summary: Madcow infobot
-Home-page: http://code.google.com/p/madcow/
-Author: Chris Jones
-Author-email: cjones@gruntle.org
+Name: Quaking Madcow
+Version: 0.1
+Summary: Fork of Madcow infobot for Quakenet
+Home-page: http://github.com/Spacexplosion/Quaking-Mad-Cow
+Author: Eric Amy
+Author-email: spacexplosion@gmail.com
 License: GPL
 Description: UNKNOWN
 Platform: UNKNOWN
-Classifier: Development Status :: 5 - Production/Stable
 Classifier: Environment :: Console
 Classifier: License :: OSI Approved :: GNU General Public License (GPL)
 Classifier: Operating System :: OS Independent
