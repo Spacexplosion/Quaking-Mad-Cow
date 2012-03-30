@@ -45,20 +45,20 @@ MODULES = ['alias',               # allow users to make command aliases
            'election',        # current electoral vote predictor for 2008 US election
            'google',              # i'm feeling lucky query
            'learn',               # used for various modules to cache per-user data
-           'movie',               # rate movie on imdb & rotten tomatoes
+           #BROKEN 'movie',               # rate movie on imdb & rotten tomatoes
            'noaa',                # alternative to wunderground (us-only, more accurate)
            'nslookup',            # look up ip of hostnames
            'seen',                # keep track of last thing everyone in channel said
-           'spellcheck',          # spellcheck a word/phrase using google
-           'stockquote',          # get yahoo stock quotes
+           #BROKEN 'spellcheck',          # spellcheck a word/phrase using google
+           #BROKEN 'stockquote',          # get yahoo stock quotes
            'summon',              # summon users (send email/sms)
            'sunrise',             # get sunrise/sunset from google for your area
-           'translate',           # language translations
+           #BROKEN 'translate',           # language translations
            'urban',               # look up word/phrase on urban dictionary
            'weather',             # look up weather from wunderground
            'wikimedia',           # look up summaries from various wikis
-           'wikiquotes',          # look up quotes from wikiquotes
-           'yelp',                # get restaraunt rating/address
+           #BROKEN 'wikiquotes',          # look up quotes from wikiquotes
+           #BROKEN 'yelp',                # get restaraunt rating/address
            #
            # the following modules are either silly, or potentially annoying/offensive.
            # they are disabled by default so you can make the decision about how
