@@ -689,7 +689,7 @@ def daemonize():
     fd = os.open(os.devnull, os.O_RDWR)
     os.dup(fd)
     os.dup(fd)
-    os.umask(027)
+    #why os.umask(027)
     os.chdir('/')
     signal.signal(signal.SIGCHLD, signal.SIG_IGN)
 
