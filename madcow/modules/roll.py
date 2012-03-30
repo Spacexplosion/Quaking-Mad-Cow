@@ -60,15 +60,16 @@ class Main(Module):
         min = num_dice
         max = num_dice * sides
         saving_throw = self.roll(min, max)
-        save_versus = self.roll(min, max)
+        #save_versus = self.roll(min, max)
 
-        try:
-            if saving_throw >= save_versus:
-                result = self.colorize(u'LIVES', u'green')
-            else:
-                result = self.colorize(u'DIES', u'red')
-        except:
-            result = self.colorize(u'IS TOO COMPLEX', u'yellow')
+#        try:
+#            if saving_throw >= save_versus:
+#                result = self.colorize(u'LIVES', u'green')
+#            else:
+#                result = self.colorize(u'DIES', u'red')
+#        except:
+#            result = self.colorize(u'IS TOO COMPLEX', u'yellow')
 
-        return u'%s rolls %s, needs %s, %s %s' % (nick, saving_throw,
-                save_versus, nick, result)
+#        return u'%s rolls %s, needs %s, %s %s' % (nick, saving_throw,
+#                save_versus, nick, result)
+        return u'%s rolls %s' % (nick, saving_throw)
