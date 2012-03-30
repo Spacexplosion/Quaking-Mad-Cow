@@ -105,9 +105,3 @@ DELICIOUS
     If you have an old school delicious account, you can use basic http
     auth. If you have a newer Yahoo! ID, you must use oAuth. You should
     run contrib/get_delicious_auth_keys.py to get started.
-
-
-CONTACT
-
-    You may reach me by e-mail at cjones@gruntle.org or AIM as
-    seejayunderscore.
