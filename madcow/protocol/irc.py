@@ -151,6 +151,11 @@ class IRCProtocol(Madcow):
         if settings.IRC_IDENTIFY_NICKSERV:
             self._privmsg(settings.IRC_NICKSERV_USER, 'IDENTIFY ' + settings.IRC_NICKSERV_PASS)
 
+        # authenticate with Q
+        if settings.IRC_AUTH_Q:
+            self.log.debug(u'Authenticating with Q')
+            self._privmsg("Q@CServe.Quakenet.org", "AUTH %s %s" % (settings.IRC_Q_USER, settings.IRC_Q_PASS))
+
         # become an oper
         if settings.IRC_OPER:
             self.log.info(u'[IRC] * Becoming an OPER')
